@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/view_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Animation"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/property_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="property Animation"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/view_transaction_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view transaction Animation"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/lottie_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lottie Animation"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/motion_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motion LAyout Animation"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
